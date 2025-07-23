@@ -9,13 +9,18 @@ fun main() {
         elevatorController.addToOrder(22)
         elevatorController.addToOrder(13)
 
-        elevatorController.move() // indo pro 7
+        elevatorController.move()
         elevatorController.addToOrder(2)
-        elevatorController.move() // indo pro 13
+        elevatorController.move()
         elevatorController.addToOrder(19)
-        elevatorController.move() // indo pro 22
-        elevatorController.move() // indo pro 19
-        elevatorController.move() // indo pro 2
+        elevatorController.addToOrder(4)
+        elevatorController.addToOrder(15)
+        elevatorController.move()
+        elevatorController.move()
+        elevatorController.move()
+        elevatorController.move()
+        elevatorController.move()
+        elevatorController.move()
 
 
 }
