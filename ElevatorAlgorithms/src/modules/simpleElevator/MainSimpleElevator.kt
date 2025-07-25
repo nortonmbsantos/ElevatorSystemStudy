@@ -18,9 +18,11 @@ fun main() {
         elevatorController.move()
         elevatorController.move()
         elevatorController.move()
-        elevatorController.move()
-        elevatorController.move()
-        elevatorController.move()
+        elevatorController.addToOrder(3)
+        elevatorController.addToOrder(0)
+//        elevatorController.move()
+//        elevatorController.move()
+//        elevatorController.move()
 
 
 }

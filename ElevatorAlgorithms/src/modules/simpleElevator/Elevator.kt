@@ -5,7 +5,8 @@ class Elevator {
     var floorsToGo = mutableListOf<Int>()
     var isDoorOpen: Boolean = false
     var currentFloor: Int = 0
-
+    var firstFloor: Int = 0
+    var lastFloor: Int = 20
 
 
 
